@@ -1,0 +1,20 @@
+{
+  "name": "baihutv",
+  "version": "3.0.0",
+  "description": "白狐影视 - 影视聚合播放平台，支持 CF Pages / Vercel / Docker 部署",
+  "main": "server.js",
+  "scripts": {
+    "dev":           "wrangler pages dev public --compatibility-date=2024-09-23",
+    "deploy":        "wrangler pages deploy public",
+    "deploy:prod":   "wrangler pages deploy public --branch=main",
+    "preview":       "npx serve public -p 3000"
+  },
+  "devDependencies": {
+    "wrangler": "^3.78.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["iptv","vod","cloudflare","pages","streaming"],
+  "license": "MIT"
+}
