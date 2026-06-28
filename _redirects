@@ -1,0 +1,6 @@
+# CF Pages 路由重定向
+# SPA 路由回退：所有非文件路径指向 index.html
+# 注意：/api/* 由 Functions 处理，不走此规则
+
+/api/*  /api/:splat  200
+/*      /index.html  200
