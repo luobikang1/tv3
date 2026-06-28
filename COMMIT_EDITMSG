@@ -1,0 +1,12 @@
+🦊 白狐影视 v3.0 初始提交
+
+- CF Pages 全静态部署，支持 Functions API 代理
+- 密码登录保护（SITE_PASSWORD 环境变量控制）
+- 22 条内置影视 API，一键抓取测速排序
+- API 管理：添加/编辑/删除/测速/拖拽排序
+- 多分辨率播放：360P / 480P / 720P / 1080P
+- Cloudflare D1 云同步：API列表 + 观看历史
+- _headers 修复 CF Pages MIME 类型问题
+- _redirects 修复 SPA 路由 404 问题
+- 四套主题：暗黑/明亮/深空蓝/暗夜绿
+- 键盘快捷键：空格/方向键/F全屏/Esc返回

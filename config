@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[user]
+	email = luobikang1@github.com
+	name = luobikang1
+[remote "origin"]
+	url = https://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@github.com/luobikang1/tv3.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
